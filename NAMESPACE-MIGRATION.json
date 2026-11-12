@@ -1,0 +1,51 @@
+{
+  "baseSource": "33f94ee19cda60d450c77b007249192ee960e1c2",
+  "date": "2026-11-12",
+  "formatVersion": 1,
+  "licenseUnchanged": true,
+  "originalSourceSnapshotRetained": true,
+  "package": "spitzli-echo-demo",
+  "preservedBindingFilesSHA256": {
+    "COMMERCIAL-LICENSING.md": "5b8832f5014f16e2cf4f7ee295de32760eed20981495d184bd9f1517be256a09",
+    "EXPORT-PROVENANCE.json": "96aa63910d55d760e16177e6f54ece662483ffd668cea656ecc66621bb68f8a4",
+    "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+    "manifest.json": "73ce9e35f88628ae8a62ae624b11245444ee73cd05bd24d059de783abcb21713"
+  },
+  "qualifiedChangedSourceSHA256": {
+    "Cargo.lock": "fa868bac158650661f9d5c9839ba44d544598a1e9de01104f9097af6ba5b3c77",
+    "Cargo.toml": "fafc944b60ea8717d2ca4106174395331e7b9f2707d462063a9c24e80092246c",
+    "Dockerfile": "345b325862e289fdaca7ce697ee145084bb5fedc9299b386286a8d6448f7f423",
+    "NOTICE": "4949ccd63735c148d2fd1f1423772d11938087ba0bdbcf4aad81c576bcfa09b8",
+    "scripts/plugin-release/release.mjs": "30462a348f238bc78dab840688199574ad4fc5e9b039310306d6210f4c433890",
+    "src/lib.rs": "2287b6ebccd47daaba725ad25c602569dc150648802cf821e78d54bb2e31d6c2",
+    "src/main.rs": "f54f72d1b51e5b46ff0e44fdf27731012636526b7438c81710b4dd8f821c9dea",
+    "standalone.json": "00f7c75199af1bbc90c69c051047dfb56b87d2a5429abd80fcfef795227eb1fe",
+    "tests/echo.rs": "d1807971cac8e8eb34d0f4bd286cd7ac73c2e52bda316ed21b6083f9e79bd981",
+    "tools/manifest-validator/Cargo.lock": "ae2cb28761abf9ce99c9f5c4df246d47d61955a9919907fd222f511d13d84ba6",
+    "tools/manifest-validator/Cargo.toml": "81aa8724804a7f701f7b312c8851937369409d029071d2034dbd6f535b86df6a",
+    "tools/manifest-validator/src/main.rs": "bb5f5ab38c63e2c28aa64a329696e923aa747e62de2d058e2de734ada06e72b4"
+  },
+  "runtimeArtifactsReplaced": false,
+  "scope": "Rust package/import and binary namespace, host UI import namespace, paired test environment variables and exact SDK pin",
+  "sdkGit": "https://github.com/spitzli/cloud-plugin-sdk",
+  "sdkRevision": "8019f3df67dba3fed3083f22635e4725028c1b5e",
+  "sourceChecks": {
+    "allRegistryLockfilesPreserved": [
+      "Cargo.lock",
+      "tools/manifest-validator/Cargo.lock"
+    ],
+    "format": true,
+    "releaseContract": true,
+    "rustLiteralFilesChecked": 4,
+    "strictClippy": true,
+    "testsIgnored": 0,
+    "testsPassed": 3,
+    "ui": {
+      "component": "echo-demo",
+      "hostConsoleSource": "a9fa78a6264a64a5e3e9405a49d94da189f7638b",
+      "typecheckPassed": true
+    }
+  },
+  "version": "0.1.0",
+  "wireStoredCryptographicAndExternalResourceBindings": "retained for coordinated migration"
+}
